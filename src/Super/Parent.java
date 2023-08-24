@@ -6,6 +6,14 @@ class Parent {
     public String address = "Hà Nội";
 
     public Parent() {} //Hàm tạo hay Constructor
+
+    public void  display1() {
+        System.out.println("Name: " + name);
+    }
+
+    public void display3() {
+        System.out.println("Quê quán");
+    }
 }
 
 // Tạo class con kế thừa class Parent
@@ -18,7 +26,7 @@ class Child extends Parent{
 
     public void display1() {
         // Sử dụng từ khóa super
-        System.out.println("Sử dụng super gọi biến name: " + this.name);
+        System.out.println("Sử dụng super gọi biến name: " + super.name);
         // Không sử dụng từ khóa super
         System.out.println("Không sử dụng super: " + name);
     }
