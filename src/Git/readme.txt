@@ -10,6 +10,8 @@ Test master commit 5
 Test  commit 6
 Test  commit 7
 
+Test master commit 6
+
 
 Test  commit 10
 Test  commit 11
