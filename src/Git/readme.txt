@@ -11,6 +11,7 @@ Test  commit 6
 Test  commit 7
 
 Test master commit 6
+Test master commit 7
 
 
 Test  commit 10
