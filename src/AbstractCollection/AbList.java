@@ -2,14 +2,16 @@ package AbstractCollection;
 
 import java.util.*;
 
- class Vehical {
-    private static int id  ;
+class Vehical {
+    private static int id;
 }
-class Car extends  Vehical {
+
+class Car extends Vehical {
 
 }
+
 public class AbList {
-    public  static  void main (String[] args) {
+    public static void main(String[] args) {
 
         AbstractList<Integer> a = new AbstractList<Integer>() {
             @Override
@@ -21,7 +23,7 @@ public class AbList {
             public Integer get(int index) {
                 return null;
             }
-        } ;
+        };
 
         AbstractSet<Integer> b = new AbstractSet<Integer>() {
             @Override
@@ -35,12 +37,12 @@ public class AbList {
             }
         };
 
-        AbstractMap<Integer,String> c = new AbstractMap<Integer, String>() {
+        AbstractMap<Integer, String> c = new AbstractMap<Integer, String>() {
             @Override
             public Set<Entry<Integer, String>> entrySet() {
                 return null;
             }
-        } ;
+        };
 
     }
 }
