@@ -10,6 +10,7 @@ public class SetTest {
         setA.add("Python");
         setA.add("Java");
         setA.add("PHP");
+        setA.add(null); // set có thể chứa null
         System.out.println("Số phần tử của setA: " + setA.size());
         System.out.println("Các phần tử của setA: " + setA);
         System.out.println("setA có chứa Java không? " + setA.contains("Java"));
