@@ -1,7 +1,6 @@
-package PV;
+package Collection;
 
 import java.util.HashMap;
-import java.util.Objects;
 
 class BadKey {
     private String value;
@@ -18,10 +17,11 @@ class BadKey {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof BadKey)) return false;
-        BadKey badKey = (BadKey) o;
-        return Objects.equals(value, badKey.value);
+//        if (this == o) return true;
+//        if (!(o instanceof BadKey)) return false;
+//        BadKey badKey = (BadKey) o;
+//        return Objects.equals(value, badKey.value);
+         return false;
     }
 
     @Override
